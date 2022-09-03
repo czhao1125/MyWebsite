@@ -184,6 +184,46 @@ nav ul li {
   margin-top: 5rem var(--bg-color);
 }
 
+.experiences h3 {
+  color: var(--primary-color);
+}
+
+
+.experiences-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.experiences-title {
+  text-align: center;
+  margin-bottom: 1rem var(--bg-color);
+}
+
+.experience-pic {
+  width: 65%;
+  height: 60%;
+}
+
+.experience-container {
+  text-align: center;
+  width: 21.875rem;
+  padding: 1rem;
+}
+
+.experience-container p {
+  padding: 0.4rem;
+}
+
+.experience-title {
+  margin-bottom: var(--bottom-margin);
+}
+
+.experience-details {
+  margin-bottom: var(--bottom-margin);
+}
+
+
 /* Experiences section ends */
 
 /* Projects section */
