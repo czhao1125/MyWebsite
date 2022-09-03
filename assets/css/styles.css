@@ -109,8 +109,8 @@ nav ul li {
   align-items: center;
   justify-content: center;
   gap: 2.5rem;
-  max-width: 68.75rem;
-  margin: auto var(--bg-color);
+  /*max-width: 68.75rem;*/
+  /*margin: auto var(--bg-color);*/
 }
 
 .hero img {
@@ -156,8 +156,8 @@ nav ul li {
 /* Skills section */
 .skills {
   background-color: var(--bg-color);
-  max-width: 68.75rem;
-  margin: auto var(--bg-color);
+  /*max-width: 68.75rem;*/
+  /*margin: auto var(--bg-color);*/
   text-align: center;
   margin-top: 2.5rem var(--bg-color);
 }
@@ -175,6 +175,16 @@ nav ul li {
   height: 11.25rem;
 }
 /* Skills section ends */
+
+/* Experiences section */
+
+.experiences {
+  background-color: var(--bg-color);
+  text-align: center;
+  margin-top: 5rem var(--bg-color);
+}
+
+/* Experiences section ends */
 
 /* Projects section */
 .projects {
