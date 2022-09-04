@@ -1,6 +1,6 @@
 # My Website
 
-Welcome to my website!
+Welcome to my website! It is still under construction tho :)
 
 ## The template is taken from:
 
