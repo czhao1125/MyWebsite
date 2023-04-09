@@ -61,7 +61,7 @@ body {
 
 #text1 {
   position: relative;
-  font-size: 20px;
+  font-size: 18px;
   z-index: 9;
   color: rgb(25, 23, 23);
 }
@@ -205,16 +205,16 @@ nav ul li {
   color: var(--primary-color);
 }
 
-.experiences-container {
+/* .experiences-container {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
-.experiences-title {
+/* .experiences-title {
   text-align: center;
   margin-bottom: 1rem var(--bg-color);
-}
+} */
 
 .experience-pic {
   width: 100%;
@@ -222,6 +222,9 @@ nav ul li {
 }
 
 .experience-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   width: 21.875rem;
   padding: 1rem;
@@ -241,6 +244,8 @@ nav ul li {
 }
 
 .experience-title {
+  text-align: center;
+  margin-bottom: 1rem var(--bg-color);
   margin-bottom: var(--bottom-margin);
 }
 
@@ -262,22 +267,22 @@ nav ul li {
   height: 60%;
 }
 
-.projects-container {
+/* .projects-container {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .projects-title {
   text-align: center;
   margin-bottom: 1rem var(--bg-color);
 }
 
-.project-container {
+/* .project-container {
   text-align: left;
   width: 61.875rem;
   padding: 1rem;
-}
+} */
 
 .project-container p {
   padding: 0.4rem;
