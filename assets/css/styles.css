@@ -223,15 +223,15 @@ nav ul li {
 
 .experience-container {
   text-align: center;
-  /*width: 21.875rem;
+  width: 21.875rem;
   padding: 1rem;
-  border-radius: 6px;*/
-  width: 24px;
+  border-radius: 6px;
+  /* width: 24px;
 	height: 4000px;
 	margin: 0px;
 	width: 1000px;
-	height: 60px;
-  /*box-shadow: 0px 2px 15px 2px var(--primary-shadow);*/
+	height: 60px; */
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
   background-color: #fff;
   gap: 1.9rem;
 }
