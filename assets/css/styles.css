@@ -413,8 +413,10 @@ nav ul li {
 
 .art-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  border-left: 20px solid var(--bg-color);
+  border-right: 20px solid var(--bg-color);
 }
 
 .art-description {
