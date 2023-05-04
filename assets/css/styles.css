@@ -390,25 +390,33 @@ nav ul li {
   padding: 32px 0;
   border-left: 100px solid var(--bg-color);
   border-right: 100px solid var(--bg-color);
+  align-items: center;
 }
 
 .art-section h1 {
   font-weight: 600;
   font-size: 15px;
   text-align: center;
-  line-height: var(--spacing);
+}
+
+.art-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.art-description {
+
 }
 
 .art-section img {
   border-top: 20px solid var(--bg-color);
   display: block;
-  width: 40%;
+  width: 350px;
   height: auto;
-  align-items: left;
 }
 
 .art-section p {
-  line-height: var(--spacing);
   color: #828282;
 }
 
