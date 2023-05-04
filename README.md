@@ -1,9 +1,6 @@
-# My Website
+# My personal Website
 
 Welcome to my website! 
 
-## The template is taken from:
+Figma: https://www.figma.com/file/db0F4boSOPO5VCMu1VYy7H/Personal-Website?node-id=0%3A1&t=x06GaqYeBT2lFnDh-1
 
-[@koladechris](https://www.twitter.com/koladechris)
-
-This is the [link](https://github.com/Ksound22/developer-portfolio) to the Github repo of the template
