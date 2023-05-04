@@ -265,7 +265,6 @@ nav ul li {
 }
 
 .projects p {
-  line-height: var(--line-height);
   padding: 0.4rem;
   border-left: 70px solid var(--bg-color);
   border-right: 70px solid var(--bg-color);
@@ -304,6 +303,11 @@ nav ul li {
   width: 40%;
   height: auto;
   align-items: left;
+}
+
+.art-section p {
+  line-height: var(--spacing);
+  color: #828282;
 }
 
 /* Art section ends */
