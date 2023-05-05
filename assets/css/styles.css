@@ -46,21 +46,7 @@ a:hover {
 body {
   font-family: var(--font-family);
 }
-
 /* CSS Resets end */
-
-
-/*GENERAL TEXTS*/
-
-#text1 {
-  position: relative;
-  font-size: 20px;
-  z-index: 9;
-  color: var(--primary-color);
-  background-color: var(--bg-color);
-}
-
-/*GENERAL TEXTS end*/
 
 
 /* Navbar */
@@ -254,9 +240,10 @@ nav ul li {
   position: absolute;
   left: 0;
   top:0;
-  width: 200px;
-  height:200px;
+  width: 100%;
+  height:100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: var(--bg-color); 
@@ -264,12 +251,23 @@ nav ul li {
   opacity: 0;
   transition: opacity 0.5s ease;
   border-radius: 15px;
-  font-size: 20px;
   font-weight: 600;
+  font-size: 20px;
+  line-height: var(--spacing);
 }
+
+.hover-text a {
+  color: #000000;
+}
+
 
 .hover-text a.btn-default {
   color: #000000;
+}
+
+.hover-text a.btn-default:hover {
+  color: var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
 }
 
 .image-wrapper:hover .hover-text {
@@ -291,67 +289,14 @@ nav ul li {
 
 .volunteer-experiences-container img {
   display: block;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 15px;
   border-left: 10px;
   object-fit: cover;
   object-position: center;
 }
 
-/* Experience section ends*/
-
-
-/* Experiences section */
-
-.experiences {
-  background-color: var(--bg-color);
-  padding: 32px 0;
-  margin-top: 10rem var(--bg-color);
-}
-
-.experiences h3 {
-  color: var(--primary-color);
-}
-
-.experiences-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.experiences-title {
-  text-align: center;
-  margin-bottom: 1rem var(--bg-color);
-}
-
-.experience-pic {
-  width: 100%;
-  height: 60%;
-}
-
-.experience-container {
-  text-align: center;
-  width: 21.875rem;
-  padding: 1rem;
-  border-radius: 6px;
-  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
-  background-color: #fff;
-  gap: 1.9rem;
-}
-
-.experience-container p {
-  padding: 0.4rem;
-}
-
-.experience-title {
-  margin-bottom: var(--bottom-margin);
-}
-
-.experience-details {
-  margin-bottom: var(--bottom-margin);
-  text-align: left;
-}
 /* Experiences section ends */
 
 /* Projects section */
