@@ -382,6 +382,49 @@ nav ul li {
 /* Art section ends */
 
 
+/* Contact section ends */
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-color);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contact-section container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color);
+  margin-bottom: 5px;
+}
+
+.contact-section img {
+  display:block;
+  width: 25px;
+  height:25px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.contact-section p{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.contact-section a{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* Contact section ends */
+
+
 /* Footer section */
 footer {
   background-color: var(--bg-color);
