@@ -477,11 +477,14 @@ footer {
   font-weight: 600;
   font-size: 22px;
   margin-bottom: 5px;
+  color:var(--secondary-color);
+  display: flex;
+  flex-direction: column;
 }
 
 .container tTitle {
   background-color: white;
-  font-weight: 300;
+  font-weight: 600;
   font-size: 18px;
   height: var(--spacing);
 }
