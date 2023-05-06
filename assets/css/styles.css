@@ -466,7 +466,7 @@ footer {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
-  width: 70%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   height: var(--spacing);
@@ -512,7 +512,7 @@ footer {
 
 /* Place the container to the left */
 .left {
-  left: -20%;
+  left: 0%;
 }
 
 /* Place the container to the right */
