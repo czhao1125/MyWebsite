@@ -29,3 +29,7 @@ scrollUp.addEventListener("click", () => {
     behavior: "smooth",
   });
 });
+
+
+// Time line
+
